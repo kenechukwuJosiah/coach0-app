@@ -31,6 +31,7 @@ export default {
   },
   computed: {
     isLoggedOut() {
+      console.log('loggedout');
       return this.$store.getters.isAuth;
     },
     didAutoLogout() {
@@ -40,6 +41,7 @@ export default {
   methods: {
     logout() {
       this.$store.dispatch('logout');
+      console.log('Logged Out');
     }
   },
   watch: {
@@ -51,6 +53,7 @@ export default {
   },
   created() {
     this.$store.dispatch('autoLogin');
+    console.log('Created');
   }
 };
 </script>
