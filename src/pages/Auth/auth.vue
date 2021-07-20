@@ -136,6 +136,7 @@ button {
   background-color: var(--vue-light-color);
 }
 .wrapper {
+  min-width: 300px;
   min-height: 90vh;
   display: flex;
   justify-content: center;

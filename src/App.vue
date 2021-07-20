@@ -218,8 +218,14 @@ span.Oo {
 }
 @media (max-width: 900px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 1.1rem;
   }
   .container {
     width: 90%;
