@@ -160,4 +160,9 @@ input {
   border: none;
   outline: none;
 }
+@media (max-width: 900px) {
+  .form__wrapper {
+    max-width: 500px;
+  }
+}
 </style>
