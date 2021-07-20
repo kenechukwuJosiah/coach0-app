@@ -65,8 +65,7 @@ export default {
   --font-regular: 'Gabriola', 'Lobster Two';
   --font-bold: 'Elephant';
   --font-style: 'Herr Von Muellerhoff';
-  --vue-light-color: #f1aa0f;
-  /* --vue-light-color: #33cc00; */
+  --vue-light-color: #33cc00;
   --vue-dark-color: #134d00;
   --dark: #080e06;
   --primary-color: #0066cc;
@@ -217,7 +216,11 @@ span.Oo {
   text-align: center;
   margin-bottom: 3rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
   .container {
     width: 90%;
   }
